@@ -7,13 +7,13 @@ function IndexPage() {
   return (
     <Layout>
       <Head title="Home" />
-      <h1 style={{ color: "#003" }}>Hello.</h1>
-      <h2 style={{ color: "#003" }}>
+      <h1 style={{ color: "#D8D5CF" }}>Hello.</h1>
+      <h2 style={{ color: "#D8D5CF" }}>
         I'm Gaurav, React developer living in beautiful India.
       </h2>
-      <p>This is a gatsby web app.</p>
-      <h4>Concepts covered in this app:</h4>
-      <ol>
+      <p style={{ color: "#C0CEC6" }}>This is a gatsby web app.</p>
+      <h4 style={{ color: "#C0CFCC" }}>Concepts covered in this app:</h4>
+      <ol style={{ color: "#C0CFCC" }}>
         <li>Bootstrapped gatsby app using gatsby-cli</li>
         <li>Created Pages and used Link for routing</li>
         <li>Used couple of gatsby plugins like gatsby-plugin-sass</li>

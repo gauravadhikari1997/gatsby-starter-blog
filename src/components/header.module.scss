@@ -8,7 +8,7 @@
 
 .title {
   text-align: center;
-  color: #ffffff;
+  color: #e8e6e3;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -20,18 +20,18 @@
 }
 
 .nav-item {
-  color: #ffffff;
+  color: #e8e6e3;
   font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  color: #666666;
+  color: #ffffff;
 }
 
 .active-nav-item {
-  color: #333333;
+  color: #c2b8aa;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
