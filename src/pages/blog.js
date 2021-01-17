@@ -45,7 +45,6 @@ function BlogPost() {
   return (
     <Layout heading="Blog">
       <Head title="Blog" />
-      <p>These posts are fetched from a wordpress site (debitsreport.com)</p>
       <ol className={blogStyles.posts}>
         {data &&
           data.allWpPost.edges.map((post, index) => (
